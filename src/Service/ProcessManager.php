@@ -166,8 +166,8 @@ class ProcessManager
             $process = $this->criticalCssService->createCriticalCssProcess(
                 $url,
                 $this->config->getDimensions(),
-                $this->config->getCriticalBinary(),
                 $this->config->getForceIncludeCssSelectors(),
+                $this->config->getCriticalBinary(),
                 $this->config->getUsername(),
                 $this->config->getPassword()
             );

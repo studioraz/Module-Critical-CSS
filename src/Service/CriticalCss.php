@@ -22,8 +22,8 @@ class CriticalCss
     public function createCriticalCssProcess(
         string $url,
         array $dimensions,
-        string $criticalBinary = 'critical',
         array $forceIncludeCssSelectors,
+        string $criticalBinary = 'critical',
         ?string $username = null,
         ?string $password = null
     ) {
